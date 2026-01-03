@@ -7,7 +7,7 @@ import os
 import re
 import time
 import discord.ext
-from discord.ext itmpor commands, tasks
+from discord.ext import commands, tasks
 import docker
 import asyncio
 from discord import app_commands
@@ -1227,4 +1227,5 @@ if __name__ == "__main__":
     if not TOKEN:
         logger.error("TOKEN not set in .env")
         sys.exit(1)
+
     bot.run(TOKEN)
